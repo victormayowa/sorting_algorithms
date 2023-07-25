@@ -19,7 +19,7 @@ void merge(int *array, int *left, size_t left_size, int *right, size_t right_s)
 	printf("Merging...\n[left]: ");
 	print_array(left, left_size);
 	printf("[right]: ");
-	print_array(right, right_size);
+	print_array(right, right_s);
 	while (i < left_size && j < right_s)
 	{
 		if (left[i] < right[j])
